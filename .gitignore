@@ -1,0 +1,22 @@
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# API keys & local environment secrets
+.env
+*.env
+
+# Pinned submodule/clone (handled by setup.sh)
+LAQuer/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# System artifacts
+.DS_Store
+Thumbs.db
