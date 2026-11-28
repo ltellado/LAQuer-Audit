@@ -7,9 +7,11 @@ parameter:
 
 1. 'Wikipedia' (Default):
    - Dynamic external search via the live Wikimedia Search REST API.
-   - Queries Wikipedia using an entity string or atomic claim, segments
-     retrieved articles into paragraph passages, and returns the top-k
-     ranked results (with optional title prefixing).
+   - Transparently caches search queries and retrieved passages to disk
+     at `cache/wikipedia.json` to prevent redundant network requests and
+     insulate batch evaluation runs against upstream Wikimedia API latency.
+   - Incorporates `prepend_title` state into the cache key to support
+     clean ablation comparisons without cache collision.
 
 2. 'LFQA':
    - Static benchmark lookup over the 45 test instances in
@@ -40,9 +42,15 @@ class LAQuerRetriever:
 
     CORPORA = ["WIKIPEDIA", "LFQA", "ASQA"]
 
-    def __init__(self, top_k=3, prepend_title=False, data_dir=None):
+    def __init__(
+        self,
+        top_k=3,
+        prepend_title=False,
+        data_dir=None,
+        cache_dir=None,
+    ):
         """
-        Initialize retriever with ranking preferences and data paths.
+        Initialize retriever with ranking preferences and cache paths.
 
         Params:
             top_k (int): Number of passage chunks to return for dynamic
@@ -51,15 +59,49 @@ class LAQuerRetriever:
                 Wikipedia passages. Defaults to False.
             data_dir (str, optional): Target data directory path. If None,
                 auto-discovered via LAQuerAudit.
+            cache_dir (str, optional): Target cache directory path. If None,
+                auto-discovered as 'cache' under repo root.
         """
         self.top_k = top_k
         self.prepend_title = prepend_title
         self.root_dir = LAQuerAudit.get_repo_root()
         self.data_dir = data_dir or os.path.join(self.root_dir, "data")
+        self.cache_dir = cache_dir or os.path.join(self.root_dir, "cache")
         self.dataset_manager = LAQuerDataset(data_dir=self.data_dir)
+
+        self.wiki_cache_path = os.path.join(
+            self.cache_dir, "wikipedia.json"
+        )
 
         self._lfqa_cache = None
         self._asqa_cache = None
+        self._wiki_disk_cache = self._load_wiki_cache()
+
+    def _load_wiki_cache(self):
+        """
+        Load persisted Wikipedia search results from cache directory.
+
+        Output:
+            dict: Mapping from query key string to list of doc strings.
+        """
+        if os.path.exists(self.wiki_cache_path):
+            try:
+                with open(self.wiki_cache_path, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception:
+                return {}
+        return {}
+
+    def _save_wiki_cache(self):
+        """
+        Flush in-memory Wikipedia query cache to disk.
+        """
+        os.makedirs(self.cache_dir, exist_ok=True)
+        try:
+            with open(self.wiki_cache_path, "w", encoding="utf-8") as f:
+                json.dump(self._wiki_disk_cache, f, indent=2)
+        except Exception:
+            pass
 
     def _load_lfqa_data(self):
         """
@@ -125,7 +167,7 @@ class LAQuerRetriever:
 
     def _search_wikipedia(self, query):
         """
-        Query live Wikimedia Search API and return top passage chunks.
+        Query Wikimedia API with transparent disk caching.
 
         Params:
             query (str): Search string or atomic claim.
@@ -133,9 +175,16 @@ class LAQuerRetriever:
         Output:
             list of str: Ranked paragraph passages.
         """
-        clean_q = re.sub(r"[^\w\s]", " ", query).strip()
-        encoded_q = urllib.parse.quote(clean_q)
+        clean_q = re.sub(r"[^\w\s]", " ", query).strip().lower()
+        if not clean_q:
+            return []
 
+        cache_key = f"{clean_q}__prep={self.prepend_title}"
+
+        if cache_key in self._wiki_disk_cache:
+            return self._wiki_disk_cache[cache_key][: self.top_k]
+
+        encoded_q = urllib.parse.quote(clean_q)
         url = (
             f"https://en.wikipedia.org/w/api.php?action=query&list=search"
             f"&srsearch={encoded_q}&format=json&srlimit={self.top_k}"
@@ -164,6 +213,9 @@ class LAQuerRetriever:
                 else:
                     passage = clean_snippet
                 passages.append(passage)
+
+        self._wiki_disk_cache[cache_key] = passages
+        self._save_wiki_cache()
 
         return passages[: self.top_k]
 
@@ -216,7 +268,7 @@ if __name__ == "__main__":
     assert "CORPORA" in dir(LAQuerRetriever), "Must define CORPORA."
     print("Supported Corpora: " + str(LAQuerRetriever.CORPORA))
 
-    # Test 1: Wikipedia dynamic retrieval (default corpus)
+    # Test 1: Wikipedia dynamic retrieval and cache creation
     test_claim = "Sean Giambrone played Adam Goldberg in The Goldbergs."
     print("\nTest 1: Wikipedia Dynamic Retrieval (default corpus)...")
     print("  Claim:  " + test_claim)
@@ -226,9 +278,20 @@ if __name__ == "__main__":
         print(f"    [{i + 1}] {d[:70]}...")
 
     assert len(wiki_docs) > 0, "Wikipedia retrieval failed."
+    assert os.path.exists(
+        retriever.wiki_cache_path
+    ), "Cache file was not created on disk."
 
-    # Test 2: LFQA corpus retrieval (by ID and query string)
-    print("\nTest 2: LFQA Benchmark Retrieval...")
+    # Test 2: Wikipedia cache hit verification
+    print("\nTest 2: Wikipedia Disk Cache Hit...")
+    clean_k = f"{re.sub(r'[^\w\s]', ' ', test_claim).strip().lower()}__prep=False"
+    assert clean_k in retriever._wiki_disk_cache, "Query missing from cache."
+    cached_docs = retriever.retrieve(test_claim)
+    assert cached_docs == wiki_docs, "Cached docs do not match live query."
+    print("  ✓ Cache hit confirmed; retrieved identical passages from disk.")
+
+    # Test 3: LFQA corpus retrieval (by ID and query string)
+    print("\nTest 3: LFQA Benchmark Retrieval...")
     lfqa_cache = retriever._load_lfqa_data()
     print("  Total LFQA Cache Keys: " + str(len(lfqa_cache)))
     sample_lfqa_key = next(iter(lfqa_cache.keys()))
@@ -237,8 +300,8 @@ if __name__ == "__main__":
     print("  Documents Retrieved: " + str(len(lfqa_docs)))
     assert len(lfqa_docs) > 0, "LFQA lookup failed for valid key."
 
-    # Test 3: ASQA corpus retrieval
-    print("\nTest 3: ASQA Benchmark Retrieval...")
+    # Test 4: ASQA corpus retrieval
+    print("\nTest 4: ASQA Benchmark Retrieval...")
     asqa_cache = retriever._load_asqa_data()
     print("  Total ASQA Cache Keys: " + str(len(asqa_cache)))
     sample_asqa_key = next(iter(asqa_cache.keys()))
@@ -247,8 +310,8 @@ if __name__ == "__main__":
     print("  Documents Retrieved: " + str(len(asqa_docs)))
     assert len(asqa_docs) > 0, "ASQA lookup failed for valid key."
 
-    # Test 4: Invalid corpus check
-    print("\nTest 4: Invalid Corpus Handling...")
+    # Test 5: Invalid corpus check
+    print("\nTest 5: Invalid Corpus Handling...")
     try:
         retriever.retrieve(test_claim, corpus="InvalidCorpus")
         assert False, "Should have raised ValueError on invalid corpus."
