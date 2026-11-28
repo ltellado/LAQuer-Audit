@@ -1,0 +1,818 @@
+[
+  {
+    "sample_id": "asqa_dev_0",
+    "question": "Who has the highest goals in world football?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Daei, Ali Daei"
+      },
+      {
+        "text": "No context provided: Bican, Josef Bican"
+      },
+      {
+        "text": "The first player to reach 100 international goals was Italian Elisabetta Vignotto. Abby Wambach scored 100 goals in 9 years, while Christine Sinclair reached the milestone in just under 10 years while Mia Hamm is the youngest player to score 100 international goals at the age of 26 years 185 days. Most played exclusively in the forward position, with Kristine Lilly and Michelle Akers having also played as midfielder. All players scored at a high average rate of more than one goal every three matches. International goals in this list should not include goals scored in penalty-shoot-out; see Penalty shootout (association football). Players who are currently active at international level are indicated in bold type background.: Sinclair, Christine Sinclair"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_1",
+    "question": "Who is the original artist of sound of silence?",
+    "gold_docs": [
+      {
+        "text": "Sounds of Silence is the second studio album by Simon & Garfunkel, released on January 17, 1966. The album's title is a slight modification of the title of the duo's first major hit, \"The Sound of Silence\", which originally was released as \"The Sounds of Silence\". The song had earlier been released in an acoustic version on the album \"Wednesday Morning, 3 A.M.\", and later on the soundtrack to the movie \"The Graduate\". Without the knowledge of Paul Simon or Art Garfunkel, electric guitars, bass and drums were overdubbed by Columbia Records staff producer Tom Wilson on June 15, 1965. This new version was released as a single in September 1965, and opens the album.: Simon & Garfunkel, Paul Simon and Art Garfunkel, Art Garfunkel, Paul Simon"
+      },
+      {
+        "text": "Sounds of Silence is the second studio album by Simon & Garfunkel, released on January 17, 1966. The album's title is a slight modification of the title of the duo's first major hit, \"The Sound of Silence\", which originally was released as \"The Sounds of Silence\". The song had earlier been released in an acoustic version on the album \"Wednesday Morning, 3 A.M.\", and later on the soundtrack to the movie \"The Graduate\". Without the knowledge of Paul Simon or Art Garfunkel, electric guitars, bass and drums were overdubbed by Columbia Records staff producer Tom Wilson on June 15, 1965. This new version was released as a single in September 1965, and opens the album.: Simon & Garfunkel, Paul Simon and Art Garfunkel, Art Garfunkel, Paul Simon"
+      },
+      {
+        "text": "\"Sound of Silence\" is a song performed by Australian recording artist Dami Im. Written by Anthony Egizii and David Musumeci of DNA Songs, it is best known as Australia's entry at the Eurovision Song Contest 2016 which was held in Stockholm, Sweden, where it finished 2nd, receiving a total of 511 points. The song also won the Marcel Bezen\u00e7on Award in the composer category. The song was leaked on 10 March 2016, one day before its initial release date. It is Dami Im's fourth Australian top 20 hit and worldwide, it reached the top 40 in more than six countries after the Eurovision Song Contest 2016 Final.: Dami Im"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_2",
+    "question": "When was the first apple i phone made?",
+    "gold_docs": [
+      {
+        "text": "On January 9, 2007, Steve Jobs announced the first iPhone at the Macworld convention, receiving substantial media attention. Jobs announced that the first iPhone would be released later that year. On June 29, 2007, the first iPhone was released.: June 29, 2007"
+      },
+      {
+        "text": "The history of the iPhone began with a request from Apple Inc. CEO Steve Jobs to the company's engineers, asking them to investigate the use of touchscreen devices and tablet computers (which later came to fruition with the iPad). Many have noted the device's similarities to Apple's previous touch-screen portable device, the Newton MessagePad. Like the MessagePad, the iPhone is nearly all screen. Its form factor is credited to Apple's Chief Design Officer, Jonathan Ive. The iPhone beta was created in 2004 to test the commands of the Apple team, and while technically may have first iPhone ever created, it was never released to the public, so this beta was not considered the true first iPhone. After some trial and error, the first iPhone was officially launched and made accessible to the public in 2007, and this iPhone and was advertised noticeably at the Macworld of that same year. In this first release, the iPhone was accessible in the US, UK, Canada, Germany, Norway, Sweden, Finland, France, Spain, Italy and South Africa.: 2004"
+      },
+      {
+        "text": "On January 9, 2007, Steve Jobs announced the first iPhone at the Macworld convention, receiving substantial media attention. Jobs announced that the first iPhone would be released later that year. On June 29, 2007, the first iPhone was released.: June 29, 2007."
+      },
+      {
+        "text": "The history of the iPhone began with a request from Apple Inc. CEO Steve Jobs to the company's engineers, asking them to investigate the use of touchscreen devices and tablet computers (which later came to fruition with the iPad). Many have noted the device's similarities to Apple's previous touch-screen portable device, the Newton MessagePad. Like the MessagePad, the iPhone is nearly all screen. Its form factor is credited to Apple's Chief Design Officer, Jonathan Ive. The iPhone beta was created in 2004 to test the commands of the Apple team, and while technically may have first iPhone ever created, it was never released to the public, so this beta was not considered the true first iPhone. After some trial and error, the first iPhone was officially launched and made accessible to the public in 2007, and this iPhone and was advertised noticeably at the Macworld of that same year. In this first release, the iPhone was accessible in the US, UK, Canada, Germany, Norway, Sweden, Finland, France, Spain, Italy and South Africa.: 2004."
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_3",
+    "question": "Who played the weasley brothers in harry potter?",
+    "gold_docs": [
+      {
+        "text": "Richard Fish appeared as Bill briefly in the film adaptation of \"Harry Potter and the Prisoner of Azkaban\". Domhnall Gleeson, the son of actor Brendan Gleeson (Alastor Moody in the series), plays Bill Weasley in \"Harry Potter and the Deathly Hallows\" and the roller coaster ride \"Harry Potter and the Escape from Gringotts\" at The Wizarding World of Harry Potter \u2013 Diagon Alley in Universal Studios Florida.: Richard Fish"
+      },
+      {
+        "text": "No context provided: Chris Rankin"
+      },
+      {
+        "text": "No context provided: James Phelps"
+      },
+      {
+        "text": "Dozens of actors of the United Kingdom and Ireland voiced or portrayed characters appearing in the \"Harry Potter\" film series based on the book series by J. K. Rowling. In all the films, Daniel Radcliffe played Harry Potter, Rupert Grint played Ron Weasley and Emma Watson played Hermione Granger. When they were cast only Radcliffe had previously acted in a film. Complementing them on screen are such actors as Helena Bonham Carter, Jim Broadbent, John Cleese, Robbie Coltrane, Warwick Davis, Ralph Fiennes, Michael Gambon, Brendan Gleeson, Richard Griffiths, Richard Harris, John Hurt, Jason Isaacs, Miriam Margolyes, Helen McCrory, Gary Oldman, Alan Rickman, Fiona Shaw, Maggie Smith, Timothy Spall, Imelda Staunton, David Thewlis, Emma Thompson, and Julie Walters, among others. Thirteen actors have appeared as the same character in all eight films of the series.: Rupert Grint"
+      },
+      {
+        "text": "No context provided: Oliver Phelps"
+      },
+      {
+        "text": "Richard Fish appeared as Bill briefly in the film adaptation of \"Harry Potter and the Prisoner of Azkaban\". Domhnall Gleeson, the son of actor Brendan Gleeson (Alastor Moody in the series), plays Bill Weasley in \"Harry Potter and the Deathly Hallows\" and the roller coaster ride \"Harry Potter and the Escape from Gringotts\" at The Wizarding World of Harry Potter \u2013 Diagon Alley in Universal Studios Florida.: Domhnall Gleeson"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_4",
+    "question": "How many state parks are there in virginia?",
+    "gold_docs": [
+      {
+        "text": "No context provided: six"
+      },
+      {
+        "text": "No context provided: 38"
+      },
+      {
+        "text": "No context provided: 6"
+      },
+      {
+        "text": "No context provided: 38"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_5",
+    "question": "Who performed at the champions league final 2018?",
+    "gold_docs": [
+      {
+        "text": "The 2018 UEFA Champions League Final was the final match of the 2017\u201318 UEFA Champions League, the 63rd season of Europe's premier club football tournament organised by UEFA, and the 26th season since it was renamed from the European Cup to the UEFA Champions League. It was played at the NSC Olimpiyskiy Stadium in Kiev, Ukraine on 26 May 2018, between Spanish side and defending champions Real Madrid, who had won the competition in each of the last two seasons, and English side Liverpool.: Real Madrid and Liverpool, Liverpool, Real Madrid"
+      },
+      {
+        "text": "Gareth Bale became the first substitute to score two goals in a Champions League final and was named man of the match. His first goal received acclaim as one of the best in Champions League history and was compared to Ronaldo's bicycle kick goal against Juventus in the quarter-final and manager Zinedine Zidane's goal in the 2002 final.: Gareth Bale, Bale"
+      },
+      {
+        "text": "English singer Dua Lipa performed at the opening ceremony preceding the final. Jamaican rapper Sean Paul joined her as a special guest to perform their collaborative song, \"No Lie\". The UEFA Champions League Anthem was performed by Slovenian\u2013Croatian cello duo 2Cellos.: Dua Lipa, Sean Paul, Dua Lipa and Sean Paul"
+      },
+      {
+        "text": "English singer Dua Lipa performed at the opening ceremony preceding the final. Jamaican rapper Sean Paul joined her as a special guest to perform their collaborative song, \"No Lie\". The UEFA Champions League Anthem was performed by Slovenian\u2013Croatian cello duo 2Cellos.: 2Cellos, Luka \u0160uli\u0107 and Stjepan Hauser, Luka \u0160uli\u0107, 2C\u039eLLOS, Stjepan Hauser"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_6",
+    "question": "Who killed the man in thelma and louise?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Louise Elizabeth Sawyer, Louise"
+      },
+      {
+        "text": "No context provided: Susan Sarandon, Susan Abigail Sarandon"
+      },
+      {
+        "text": "No context provided: Louise Elizabeth Sawyer, Louise"
+      },
+      {
+        "text": "No context provided: Susan Sarandon"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_7",
+    "question": "Who plays charlie on it's always sunny?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Charlie Kelly"
+      },
+      {
+        "text": "Charles Rutherford Kelly is a fictional character on the FX series \"It's Always Sunny in Philadelphia\", portrayed by Charlie Day. Charlie is co-owner at Paddy's (although he later sells his shares) and a childhood friend of Mac and Dennis. He is also Frank's roommate and possible biological child (\"\"Dennis and Dee Get a New Dad\"\"). He is addicted to various harmful substances (such as glue and alcohol), and is called illiterate by their peers (\"\"The Gang Gives Back\"\"). : Charlie Day"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_8",
+    "question": "How many times have the lakers won the finals?",
+    "gold_docs": [
+      {
+        "text": "No context provided: 16"
+      },
+      {
+        "text": "No context provided: 16"
+      },
+      {
+        "text": "No context provided: 16"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_9",
+    "question": "How many states in india are under congress?",
+    "gold_docs": [
+      {
+        "text": "No context provided: 7"
+      },
+      {
+        "text": "No context provided: 5"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_10",
+    "question": "Who is fruma sarah in fiddler on the roof?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Ruth Madoc"
+      },
+      {
+        "text": "No context provided: Carol Sawyer Yussel"
+      },
+      {
+        "text": "No context provided: a ghostly depiction of the late wife of Lazar Wolf"
+      },
+      {
+        "text": "No context provided: Jessica Vosk"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_11",
+    "question": "When did toronto host the mlb all-star game?",
+    "gold_docs": [
+      {
+        "text": "No context provided: July 9, 1991"
+      },
+      {
+        "text": "No context provided: 1991 Major League Baseball All-Star Game, the 62nd playing of the midsummer classic"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_12",
+    "question": "What kind of car in to catch a thief?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Sunbeam Alpine, 1953 Sunbeam Alpine Mk I"
+      },
+      {
+        "text": "The Series I used a engine and was styled by the Loewy Studios for the Rootes Group. The car made extensive use of components from other Rootes Group vehicles and was built on a modified floorpan from the Hillman Husky estate car. The running gear came mainly from the Sunbeam Rapier, but with front disc brakes replacing the saloon car's drums. An overdrive unit and wire wheels were optional. The suspension was independent at the front using coil springs and at the rear had a live axle and semi-elliptic springing. The Girling-manufactured brakes used discs at the front and drums at the rear. It had dual downdraft carburetors, a soft top that could be hidden by special integral covers and the first available wind-up side windows offered in a British sports car of that time.: Rootes Group"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_13",
+    "question": "When did the last season of jersey shore air?",
+    "gold_docs": [
+      {
+        "text": "On January 25, 2011, it was confirmed that the show had been renewed for a fourth season, to be filmed in Italy during the first half of 2011. The fourth season premiered August 4, 2011. MTV confirmed in June 2011 that the fifth season would return to Seaside Heights.: August 4, 2011"
+      },
+      {
+        "text": "No context provided: October 20, 2011"
+      },
+      {
+        "text": "No context provided: January 5, 2012"
+      },
+      {
+        "text": "No context provided: March 15, 2012"
+      },
+      {
+        "text": "No context provided: October 4, 2012"
+      },
+      {
+        "text": "No context provided: December 20, 2012"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_14",
+    "question": "What season of greys anatomy was the plane crash?",
+    "gold_docs": [
+      {
+        "text": "No context provided: season 8"
+      },
+      {
+        "text": "No context provided: season 11"
+      },
+      {
+        "text": "No context provided: 8"
+      },
+      {
+        "text": "No context provided: 11"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_15",
+    "question": "Number of branches of oriental bank of commerce in india?",
+    "gold_docs": [
+      {
+        "text": "On 14 August 2004, OBC amalgamated Global Trust Bank (GTB). GTB was a leading private sector bank in India that was associated with various financial discrepancies leading to a moratorium being imposed by RBI shortly before it merged into OBC. The acquisition brought with it 103 branches, which increased OBC's branch total to 1092. As per March 2018-2019 annual report, it has 2390 branches and 2625 ATMs pan India.: 2390"
+      },
+      {
+        "text": "On 14 August 2004, OBC amalgamated Global Trust Bank (GTB). GTB was a leading private sector bank in India that was associated with various financial discrepancies leading to a moratorium being imposed by RBI shortly before it merged into OBC. The acquisition brought with it 103 branches, which increased OBC's branch total to 1092. As per March 2018-2019 annual report, it has 2390 branches and 2625 ATMs pan India.: 1092"
+      },
+      {
+        "text": "On 30 August 2019, Finance Minister Nirmala Sitharaman announced that the Oriental Bank of Commerce and United Bank of India would be merged with Punjab National Bank. The proposed merger would make Punjab National Bank the second largest public sector bank in the country with assets of and 11,437 branches. MD and CEO of United Bank, Ashok Kumar Pradhan, stated that the merged entity would begin functioning from 1 April 2020 and would operate under a new name.: 11,437"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_16",
+    "question": "When did the rams go to st louis?",
+    "gold_docs": [
+      {
+        "text": "The Los Angeles Rams are a professional American football team that plays and competes in the National Football League (NFL). The Rams franchise was founded in 1936 as the Cleveland Rams in the short-lived second American Football League before joining the NFL the next year. In 1946, the franchise moved to Los Angeles. The Rams franchise remained in the metro area until 1994, when they moved to St. Louis, and were known as the St. Louis Rams from 1995 to 2015. The Rams franchise returned to Los Angeles in 2016. This article chronicles the franchise's history during their time in Los Angeles, from playing at the Los Angeles Memorial Coliseum between 1946 and 1979, to playing at Anaheim Stadium (now known as Angel Stadium of Anaheim) in Anaheim from 1980 to 1994, and its return to Southern California beginning with the to season playing temporarily at their old home the Los Angeles Memorial Coliseum before moving to SoFi Stadium in Inglewood in 2020 alongside the Los Angeles Chargers.: 1995"
+      },
+      {
+        "text": "The Rams\u2019 new stadium was not ready for them when they initially arrived in Missouri, so they were forced to temporarily share Busch Memorial Stadium with the St. Louis Cardinals. Their first game in St. Louis against the New Orleans Saints was played on September 10, 1995 with the Rams winning 17-13. The then- Trans World Dome opened on November 12, 1995 with the home team scoring a 28\u201317 victory against the Carolina Panthers. : September 10, 1995"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_17",
+    "question": "When did the voortrekkers arrive in south africa?",
+    "gold_docs": [
+      {
+        "text": "The Great Trek (; ) was an eastward migration of Dutch-speaking settlers who travelled by wagon trains from the Cape Colony into the interior of modern South Africa from 1836 onwards, seeking to live beyond the Cape\u2019s British colonial administration. The Great Trek resulted from the culmination of tensions between rural descendants of the Cape's original European settlers, known collectively as \"Boers\", and the British Empire. It was also reflective of an increasingly common trend among individual Boer communities to pursue an isolationist and semi-nomadic lifestyle away from the developing administrative complexities in Cape Town. Boers who took part in the Great Trek identified themselves as \"voortrekkers\", meaning \"pioneers\", \"pathfinders\" (literally \"fore-trekkers\") in Dutch and Afrikaans.: 1836, 1836 onwards"
+      },
+      {
+        "text": "No context provided: February 1835"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_18",
+    "question": "Who plays patrick in 10 things i hate about you?",
+    "gold_docs": [
+      {
+        "text": "10 Things I Hate About You is a 1999 American romantic comedy film directed by Gil Junger and starring Julia Stiles, Heath Ledger, Joseph Gordon-Levitt, and Larisa Oleynik. The screenplay, written by Karen McCullah Lutz and Kirsten Smith, is a modernization of William Shakespeare's late-16th-century comedy \"The Taming of the Shrew\", retold in a late-1990s American high school setting. In the story, new student Cameron (Gordon-Levitt) is smitten with Bianca (Oleynik) and, in order to get around her father's strict rules on dating, attempts to get bad boy Patrick (Ledger) to date Bianca's ill-tempered sister, Kat (Stiles). The film is titled after a poem written by Kat about her bittersweet romance with Patrick. Much of the filming took place in the Seattle metropolitan area, with many scenes shot at Stadium High School in Tacoma.: Heath Andrew Ledger, Heath Ledger, Ledger"
+      },
+      {
+        "text": "No context provided: Ethan Peck, Peck, Ethan Gregory Peck"
+      },
+      {
+        "text": "No context provided: Heath Andrew Ledger, Heath Ledger"
+      },
+      {
+        "text": "No context provided: Ethan Peck, Ethan Gregory Peck"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_19",
+    "question": "Microsoft live movie maker is an example of free?",
+    "gold_docs": [
+      {
+        "text": "No context provided: freeware"
+      },
+      {
+        "text": "Windows Movie Maker (known as Windows Live Movie Maker for the 2009 and 2011 releases) is a discontinued video editing software by Microsoft. It was a part of Windows Essentials software suite and offered the ability to create and edit videos as well as to publish them on OneDrive, Facebook, Vimeo, YouTube, and Flickr.: Video editing software"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_20",
+    "question": "Who is the chief minister of m. p?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Shivraj Singh Chauhan"
+      },
+      {
+        "text": "Babulal Gaur Yadav (2 June 1929 \u2013 21 August 2019) was an Indian politician from Bharatiya Janata Party (BJP) who served as the 16th Chief Minister of Madhya Pradesh. He was elected in 10 Assembly elections from the seat of Govindpura in Bhopal before retiring from electoral politics in 2018 due to old age.: Babulal Gaur"
+      },
+      {
+        "text": "No context provided: Uma Bharti"
+      },
+      {
+        "text": "No context provided: Shivraj Singh Chauhan"
+      },
+      {
+        "text": "Babulal Gaur Yadav (2 June 1929 \u2013 21 August 2019) was an Indian politician from Bharatiya Janata Party (BJP) who served as the 16th Chief Minister of Madhya Pradesh. He was elected in 10 Assembly elections from the seat of Govindpura in Bhopal before retiring from electoral politics in 2018 due to old age.: Babulal Gaur, Babulal Gaur Yadav"
+      },
+      {
+        "text": "No context provided: Uma Bharti"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_21",
+    "question": "Who sings the song for stuck in the middle?",
+    "gold_docs": [
+      {
+        "text": "\"Stuck in the Middle with You\" (sometimes known as \"Stuck in the Middle\") is a song written by Scottish musicians Gerry Rafferty and Joe Egan and originally performed by their band Stealers Wheel.: Stealers Wheel"
+      },
+      {
+        "text": "\"Stuck in the Middle\" was released on Stealers Wheel's 1972 eponymous debut album. Gerry Rafferty provided the lead vocals, with Joe Egan singing harmony. It was produced by Jerry Leiber and Mike Stoller. Rafferty's lyrics are a dismissive tale of a music industry cocktail party written and performed as a parody of Bob Dylan's paranoia (the vocal impression, subject, and styling were so similar, listeners have wrongly attributed the song to Dylan since its release): Gerry Rafferty"
+      },
+      {
+        "text": "\"Stuck in the Middle\" was released on Stealers Wheel's 1972 eponymous debut album. Gerry Rafferty provided the lead vocals, with Joe Egan singing harmony. It was produced by Jerry Leiber and Mike Stoller. Rafferty's lyrics are a dismissive tale of a music industry cocktail party written and performed as a parody of Bob Dylan's paranoia (the vocal impression, subject, and styling were so similar, listeners have wrongly attributed the song to Dylan since its release): Joe Egan"
+      },
+      {
+        "text": "No context provided: Clea"
+      },
+      {
+        "text": "No context provided: Sonus"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_22",
+    "question": "How many grammy awards does whitney houston have?",
+    "gold_docs": [
+      {
+        "text": "No context provided: 6"
+      },
+      {
+        "text": "No context provided: 2"
+      },
+      {
+        "text": "No context provided: 8"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_23",
+    "question": "When was crude oil first discovered in nigeria?",
+    "gold_docs": [
+      {
+        "text": "The history of oil exploration in Nigeria dates back to 1903 when Nigerian Bitumen Corporation conducted exploratory work in the country, at the onset of World War I the firm's operation were stopped. Due to the lack of technological and financial resources by small oil companies, large oil companies took over the exploration of commercial oil in the country. Thereafter, licenses were given to D'Arcy Exploration Company and Whitehall Petroleum but neither company found oil of commercial value and they returned their licenses in 1923. A new license covering was given to Shell D'arcy Petroleum Development Company of Nigeria, a consortium of Shell and British Petroleum (then known as Anglo-Iranian). The company began exploratory work in 1937. The consortium was granted license to explore oil all over the territory of Nigeria but the acreage allotted to the company in the original license was reduced in 1951 and then between 1955 and 1957. Drilling activities started in 1951 with the first test well drilled in Owerri area. Oil was discovered in non-commercial quantities at Akata, near Eket in 1953. Prior to the Akata find, the company had spent around 6 million pounds on exploratory activities in the country. Shell-BP in the pursuit of commercially available petroleum found oil in Oloibiri, Nigeria in 1956. Other important oil wells discovered during the period were Afam and Bomu in Ogoni territory. Production of crude oil began in 1957 and in 1960, a total of 847,000 tonnes of crude oil was exported. Towards the end of the 1950s, non-British firms were granted license to explore for oil: Mobil in 1955, Tenneco in 1960, Gulf Oil and later Chevron in 1961, Agip in 1962, and Elf in 1962. Prior to the discovery of oil, Nigeria (like many other African countries) strongly relied on agricultural exports to other countries to supply their economy. Many Nigerians thought the developers were looking for palm oil. But after nearly 50 years searching for oil in the country, Shell-BP discovered the oil at Oloibiri in the Niger Delta. The first oil field began production in 1958.: 1953"
+      },
+      {
+        "text": "The history of oil exploration in Nigeria dates back to 1903 when Nigerian Bitumen Corporation conducted exploratory work in the country, at the onset of World War I the firm's operation were stopped. Due to the lack of technological and financial resources by small oil companies, large oil companies took over the exploration of commercial oil in the country. Thereafter, licenses were given to D'Arcy Exploration Company and Whitehall Petroleum but neither company found oil of commercial value and they returned their licenses in 1923. A new license covering was given to Shell D'arcy Petroleum Development Company of Nigeria, a consortium of Shell and British Petroleum (then known as Anglo-Iranian). The company began exploratory work in 1937. The consortium was granted license to explore oil all over the territory of Nigeria but the acreage allotted to the company in the original license was reduced in 1951 and then between 1955 and 1957. Drilling activities started in 1951 with the first test well drilled in Owerri area. Oil was discovered in non-commercial quantities at Akata, near Eket in 1953. Prior to the Akata find, the company had spent around 6 million pounds on exploratory activities in the country. Shell-BP in the pursuit of commercially available petroleum found oil in Oloibiri, Nigeria in 1956. Other important oil wells discovered during the period were Afam and Bomu in Ogoni territory. Production of crude oil began in 1957 and in 1960, a total of 847,000 tonnes of crude oil was exported. Towards the end of the 1950s, non-British firms were granted license to explore for oil: Mobil in 1955, Tenneco in 1960, Gulf Oil and later Chevron in 1961, Agip in 1962, and Elf in 1962. Prior to the discovery of oil, Nigeria (like many other African countries) strongly relied on agricultural exports to other countries to supply their economy. Many Nigerians thought the developers were looking for palm oil. But after nearly 50 years searching for oil in the country, Shell-BP discovered the oil at Oloibiri in the Niger Delta. The first oil field began production in 1958.: 1956"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_24",
+    "question": "When was the first fast and furious film made?",
+    "gold_docs": [
+      {
+        "text": "Development for \"The Fast and the Furious\" arose after Cohen read a \"Vibe\" magazine article in 1998 titled \"Racer X\", which detailed the illegal street racing circuit operating within New York City. After contacting producer Neal H. Moritz, Moritz was able to present the script to Universal Studios, who greenlit \"The Fast and the Furious\" in 2000. Walker was the first actor to sign onto the project, while Diesel initially had to be persuaded to participate in the film, accepting after proposing several script changes.: 2000"
+      },
+      {
+        "text": "\"The Fast and the Furious\" was released on June 22, 2001 in North America and ranked #1 at the box office, earning $40,089,015 during its opening weekend. Its widest release was 2,889 theaters. During its run, the film has made a domestic total of $144,533,925 along with an international total of $62,750,000 bringing its worldwide total of $207,283,925 on a budget of $38 million.: 2001"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_25",
+    "question": "Who sang the song i'm coming out?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Diana Ross"
+      },
+      {
+        "text": "In 2003, American singer Amerie covered \"I'm Coming Out\" for the soundtrack to the film \"Maid in Manhattan\". Her version was released as a single in select European countries and Australia. The final single version to be released was the Loren Dawson remix. The original single version (which is similar to the original) can be found on both CD singles and the original motion picture soundtrack to \"Maid in Manhattan\". Ross' version appears on the film's soundtrack album as well.: Amerie"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_26",
+    "question": "When is episode 113 of dragon ball super coming out?",
+    "gold_docs": [
+      {
+        "text": "No context provided: October 29, 2017"
+      },
+      {
+        "text": "No context provided: June 1, 2019"
+      },
+      {
+        "text": "No context provided: October 29, 2017"
+      },
+      {
+        "text": "No context provided: June 1, 2019"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_27",
+    "question": "Who wrote the book of 1 and 2 thessalonians?",
+    "gold_docs": [
+      {
+        "text": "The Second Epistle to the Thessalonians, commonly referred to as Second Thessalonians or 2 Thessalonians is a book from the New Testament of the Christian Bible. It is traditionally attributed to Paul the Apostle, with Timothy as a co-author. Modern biblical scholarship is divided on whether the epistle was written by Paul; many scholars reject its authenticity based on what they see as differences in style and theology between this and the First Epistle to the Thessalonians.: Paul the Apostle, with Timothy"
+      },
+      {
+        "text": "Many modern scholars agree with Ehrman that 2 Thessalonians was not written by Paul but by an associate or disciple after his death. See, for example, Beverly Roberts Gaventa, Vincent Smiles, Udo Schnelle, Eugene Boring, and Joseph Kelly. Norman Perrin observes, \"The best understanding of 2 Thessalonians ... is to see it as a deliberate imitation of 1 Thessalonians, updating the apostle's thought.\" Perrin bases this claim on his hypothesis that prayer at the time usually treated God the Father as ultimate judge, rather than Jesus.: not written by Paul but by an associate or disciple"
+      },
+      {
+        "text": "The First Epistle to the Thessalonians, commonly referred to as First Thessalonians or 1 Thessalonians, is a Pauline epistle of the New Testament of the Christian Bible. The epistle is attributed to Paul the Apostle, and is addressed to the church in Thessalonica, in modern-day Greece. It is likely the first of Paul's letters, probably written by the end of AD 52 (however, some scholars believe the Epistle to Galatians may have been written at an earlier date: AD 48).: Paul the Apostle"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_28",
+    "question": "When is fortnite battle royale being released on android?",
+    "gold_docs": [
+      {
+        "text": "The Android beta version of \"Fortnite\" was released on August 9, 2018 with a time-exclusivity for selected Samsung mobile devices until August 12, 2018. On August 13, 2018, Epic began sending invites for the Android version to registered users for non-Samsung devices, and by October 11, 2018, the Android client was made available to all without an invite.: August 9, 2018"
+      },
+      {
+        "text": "The Android beta version of \"Fortnite\" was released on August 9, 2018 with a time-exclusivity for selected Samsung mobile devices until August 12, 2018. On August 13, 2018, Epic began sending invites for the Android version to registered users for non-Samsung devices, and by October 11, 2018, the Android client was made available to all without an invite.: August 13, 2018"
+      },
+      {
+        "text": "The Android beta version of \"Fortnite\" was released on August 9, 2018 with a time-exclusivity for selected Samsung mobile devices until August 12, 2018. On August 13, 2018, Epic began sending invites for the Android version to registered users for non-Samsung devices, and by October 11, 2018, the Android client was made available to all without an invite.: October 11, 2018"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_29",
+    "question": "How many medals did australia win in the 2000 olympics?",
+    "gold_docs": [
+      {
+        "text": "No context provided: 16"
+      },
+      {
+        "text": "No context provided: 25"
+      },
+      {
+        "text": "No context provided: 17"
+      },
+      {
+        "text": "No context provided: 58"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_30",
+    "question": "Who is elected as the vice president of india?",
+    "gold_docs": [
+      {
+        "text": "There have been 13 vice presidents since the inception of the post in 1950. The first vice president of India, Sarvepalli Radhakrishnan, took oath at Rashtrapati Bhavan on 13 May 1952. He later served as the president. Following the death of Zakir Hussain in 1969, V. V. Giri resigned from the post of vice president to contest the presidential election and got elected. Out of 13 vice presidents, six of them later went on to become the president. Krishna Kant has been the only one to die during his tenure. On 11 August 2017, Venkaiah Naidu was sworn in as the 13th vice president of India.: Venkaiah Naidu, Muppavarapu Venkaiah Naidu"
+      },
+      {
+        "text": "No context provided: Mohammad Hamid Ansari"
+      },
+      {
+        "text": "No context provided: Mohammad Hamid Ansari"
+      },
+      {
+        "text": "There have been 13 vice presidents since the inception of the post in 1950. The first vice president of India, Sarvepalli Radhakrishnan, took oath at Rashtrapati Bhavan on 13 May 1952. He later served as the president. Following the death of Zakir Hussain in 1969, V. V. Giri resigned from the post of vice president to contest the presidential election and got elected. Out of 13 vice presidents, six of them later went on to become the president. Krishna Kant has been the only one to die during his tenure. On 11 August 2017, Venkaiah Naidu was sworn in as the 13th vice president of India.: Venkaiah Naidu"
+      },
+      {
+        "text": "No context provided: Mohammad Hamid Ansari"
+      },
+      {
+        "text": "No context provided: Bhairon Singh Shekhawat"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_31",
+    "question": "Who was england's prime minister during ww1?",
+    "gold_docs": [
+      {
+        "text": "On the eve of war, there was serious domestic unrest in the UK (amongst the labour and suffrage movements and especially in Ireland) but much of the population rapidly rallied behind the government. Significant sacrifices were made in the name of defeating the Empire's enemies and many of those who could not fight contributed to philanthropic and humanitarian causes. Fearing food shortages and labour shortfalls, the government passed legislation such as the Defence of the Realm Act 1914, to give it new powers. The war saw a move away from the idea of \"business as usual\" under Prime Minister H. H. Asquith, and towards a state of total war (complete state intervention in public affairs) under the premiership of David Lloyd George; the first time this had been seen in Britain. The war also witnessed the first aerial bombardments of cities in Britain.: Asquith, 1st Earl of Oxford and Asquith, H. H. Asquith, Herbert Henry Asquith"
+      },
+      {
+        "text": "On the eve of war, there was serious domestic unrest in the UK (amongst the labour and suffrage movements and especially in Ireland) but much of the population rapidly rallied behind the government. Significant sacrifices were made in the name of defeating the Empire's enemies and many of those who could not fight contributed to philanthropic and humanitarian causes. Fearing food shortages and labour shortfalls, the government passed legislation such as the Defence of the Realm Act 1914, to give it new powers. The war saw a move away from the idea of \"business as usual\" under Prime Minister H. H. Asquith, and towards a state of total war (complete state intervention in public affairs) under the premiership of David Lloyd George; the first time this had been seen in Britain. The war also witnessed the first aerial bombardments of cities in Britain.: 1st Earl Lloyd-George of Dwyfor, Lloyd George, David Lloyd George"
+      },
+      {
+        "text": "On the eve of war, there was serious domestic unrest in the UK (amongst the labour and suffrage movements and especially in Ireland) but much of the population rapidly rallied behind the government. Significant sacrifices were made in the name of defeating the Empire's enemies and many of those who could not fight contributed to philanthropic and humanitarian causes. Fearing food shortages and labour shortfalls, the government passed legislation such as the Defence of the Realm Act 1914, to give it new powers. The war saw a move away from the idea of \"business as usual\" under Prime Minister H. H. Asquith, and towards a state of total war (complete state intervention in public affairs) under the premiership of David Lloyd George; the first time this had been seen in Britain. The war also witnessed the first aerial bombardments of cities in Britain.: H. H. Asquith"
+      },
+      {
+        "text": "On the eve of war, there was serious domestic unrest in the UK (amongst the labour and suffrage movements and especially in Ireland) but much of the population rapidly rallied behind the government. Significant sacrifices were made in the name of defeating the Empire's enemies and many of those who could not fight contributed to philanthropic and humanitarian causes. Fearing food shortages and labour shortfalls, the government passed legislation such as the Defence of the Realm Act 1914, to give it new powers. The war saw a move away from the idea of \"business as usual\" under Prime Minister H. H. Asquith, and towards a state of total war (complete state intervention in public affairs) under the premiership of David Lloyd George; the first time this had been seen in Britain. The war also witnessed the first aerial bombardments of cities in Britain.: David Lloyd George"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_32",
+    "question": "Who plays snowman in smokey and the bandit?",
+    "gold_docs": [
+      {
+        "text": "Smokey and the Bandit Part 3 is a 1983 American action comedy film and a sequel to \"Smokey and the Bandit\" (1977) and \"Smokey and the Bandit II\" (1980), starring Jackie Gleason, Jerry Reed, Paul Williams, Pat McCormick, Mike Henry and Colleen Camp. The film also includes a cameo near the film's end by the original Bandit, Burt Reynolds.: Jerry Reed"
+      },
+      {
+        "text": "Smokey and the Bandit II is a 1980 American action comedy film directed by Hal Needham, and stars Burt Reynolds, Sally Field, Jerry Reed, Jackie Gleason and Dom DeLuise. The film is the sequel to the 1977 film \"Smokey and the Bandit\".: Jerry Reed"
+      },
+      {
+        "text": "Smokey and the Bandit Part 3 is a 1983 American action comedy film and a sequel to \"Smokey and the Bandit\" (1977) and \"Smokey and the Bandit II\" (1980), starring Jackie Gleason, Jerry Reed, Paul Williams, Pat McCormick, Mike Henry and Colleen Camp. The film also includes a cameo near the film's end by the original Bandit, Burt Reynolds.: Jerry Reed"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_33",
+    "question": "Who beat villanova last year in the ncaa tournament?",
+    "gold_docs": [
+      {
+        "text": "No context provided: University of Wisconsin\u2013Madison, Wisconsin, the Badgers, Wisconsin Badgers"
+      },
+      {
+        "text": "As a tournament ritual, the winning team cuts down the nets at the end of regional championship games as well as the national championship game. Starting with the seniors, and moving down by classes, players each cut a single strand off of each net; the head coach cuts the last strand connecting the net to the hoop, claiming the net itself. An exception to the head coach cutting the last strand came in 2013, when Louisville head coach Rick Pitino gave that honor to Kevin Ware, who had suffered a catastrophic leg injury during the tournament. This tradition is credited to Everett Case, the coach of North Carolina State, who stood on his players' shoulders to accomplish the feat after the Wolfpack won the Southern Conference tournament in 1947. CBS, since 1987 and yearly to 2015, in the odd-numbered years since 2017, and TBS, since 2016, the even-numbered years, close out the tournament with \"One Shining Moment\", performed by Luther Vandross.: NC State, the Wolfpack, NC State Wolfpack, North Carolina State University"
+      },
+      {
+        "text": "No context provided: University of Connecticut, the Huskies, UConn, UConn Huskies"
+      },
+      {
+        "text": "No context provided: Wisconsin"
+      },
+      {
+        "text": "As a tournament ritual, the winning team cuts down the nets at the end of regional championship games as well as the national championship game. Starting with the seniors, and moving down by classes, players each cut a single strand off of each net; the head coach cuts the last strand connecting the net to the hoop, claiming the net itself. An exception to the head coach cutting the last strand came in 2013, when Louisville head coach Rick Pitino gave that honor to Kevin Ware, who had suffered a catastrophic leg injury during the tournament. This tradition is credited to Everett Case, the coach of North Carolina State, who stood on his players' shoulders to accomplish the feat after the Wolfpack won the Southern Conference tournament in 1947. CBS, since 1987 and yearly to 2015, in the odd-numbered years since 2017, and TBS, since 2016, the even-numbered years, close out the tournament with \"One Shining Moment\", performed by Luther Vandross.: North Carolina State"
+      },
+      {
+        "text": "The 2013\u201314 Villanova Wildcats finished the season with an overall record of 29\u20135, with a record of 16\u20132 in the Big East regular season to capture their Big East regular season title. In the 2014 Big East Tournament, the Wildcats were upset by Seton Hall, 64\u201363 in the quarterfinals. They were invited to the 2014 NCAA Men's Division I Basketball Tournament which they defeated Milwaukee in the second round before getting eliminated by eventual NCAA Tournament Champion Connecticut in the third round.: Connecticut"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_34",
+    "question": "Who has scored most goals in international football?",
+    "gold_docs": [
+      {
+        "text": "Ferenc Pusk\u00e1s of Hungary was the second player and the second European after Nielsen to achieve the feat. His 50th goal came on 24 July 1952, when he scored a brace (two goals) in the semi-final match against Turkey at the 1952 Summer Olympics. Pusk\u00e1s scored 84 goals in his international career. He remained the highest international goalscorer for 47 years following his 84th goal in 1956 against Austria until Ali Daei of Iran broke the record in 2003 after scoring his 85th goal against Lebanon. Daei is the only player to score over 100 goals in international football with 109 goals. He scored his 50th goal in a friendly match against Mexico on 9 January 2000, becoming the first Asian footballer to achieve the feat. His 100th goal came on 17 November 2004, when he scored a hat-trick (in this case four goals) against Laos in the 2006 FIFA World Cup qualification. However, the first player from Asia to score at least 50 goals was Japan's Kunishige Kamamoto. He achieved the feat after scoring against Malaysia in 1972 Merdeka Tournament and he went on to score 80 goals for his country in 84 international appearances. Just two years after Pusk\u00e1s' scored his 50th goal, his teammate S\u00e1ndor Kocsis did the same on 19 September 1954 in a friendly match against Romania. He became the third player and the third European to achieve the feat. He went on to score a total of 75 goals in 65 matches in international football.: Ali Daei"
+      },
+      {
+        "text": "No context provided: Christine Sinclair, Christine Margaret Sinclair"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_35",
+    "question": "When was the 13th amendment ratified by the states?",
+    "gold_docs": [
+      {
+        "text": "The Thirteenth Amendment (Amendment XIII) to the United States Constitution abolished slavery and involuntary servitude, except as punishment for a crime. In Congress, it was passed by the Senate on April 8, 1864, and by the House on January 31, 1865. The amendment was ratified by the required number of states on December 6, 1865. On December 18, 1865, Secretary of State William H. Seward proclaimed its adoption. It was the first of the three Reconstruction Amendments adopted following the American Civil War.: December 6, 1865"
+      },
+      {
+        "text": "No context provided: February 1865"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_36",
+    "question": "Who is hosting the next world cup 2022?",
+    "gold_docs": [
+      {
+        "text": "Qatar is the smallest nation by area ever to have been awarded a FIFA World Cup\u00a0\u2013 the next smallest by area is Switzerland, host of the 1954 FIFA World Cup, which is more than three times as large as Qatar and only needed to host 16 teams instead of the current 32.: Qatar"
+      },
+      {
+        "text": "No context provided: Capetown,  South Africa"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_37",
+    "question": "Who played warden hodges in dad's army?",
+    "gold_docs": [
+      {
+        "text": "The last ever radio recording of \"Dad's Army\" occurred in 1995, when Jimmy Perry wrote a radio sketch entitled \"The Boy Who Saved England\" for the \"Full Steam A-Hudd\" evening broadcast on Radio 2, transmitted on 3 June 1995 on the occasion of the closure of the BBC's Paris studios in Lower Regent Street. It featured Ian Lavender as Pike, Bill Pertwee as Hodges, Frank Williams as the Vicar and Jimmy Perry as General Haverlock-Seabag.: Bill Pertwee"
+      },
+      {
+        "text": "No context provided: Martin Savage"
+      },
+      {
+        "text": "The last ever radio recording of \"Dad's Army\" occurred in 1995, when Jimmy Perry wrote a radio sketch entitled \"The Boy Who Saved England\" for the \"Full Steam A-Hudd\" evening broadcast on Radio 2, transmitted on 3 June 1995 on the occasion of the closure of the BBC's Paris studios in Lower Regent Street. It featured Ian Lavender as Pike, Bill Pertwee as Hodges, Frank Williams as the Vicar and Jimmy Perry as General Haverlock-Seabag.: William Desmond Anthony Pertwee, Bill Pertwee, William Desmond Anthony Pertwee, MBE"
+      },
+      {
+        "text": "No context provided: Martin Savage"
+      },
+      {
+        "text": "The last ever radio recording of \"Dad's Army\" occurred in 1995, when Jimmy Perry wrote a radio sketch entitled \"The Boy Who Saved England\" for the \"Full Steam A-Hudd\" evening broadcast on Radio 2, transmitted on 3 June 1995 on the occasion of the closure of the BBC's Paris studios in Lower Regent Street. It featured Ian Lavender as Pike, Bill Pertwee as Hodges, Frank Williams as the Vicar and Jimmy Perry as General Haverlock-Seabag.: William Desmond Anthony Pertwee, Bill Pertwee, William Desmond Anthony Pertwee, MBE"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_38",
+    "question": "Who's the highest paid nba player 2017?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Stephen Curry"
+      },
+      {
+        "text": "No context provided: LeBron James, Lebron James"
+      },
+      {
+        "text": "No context provided: Stephen Curry"
+      },
+      {
+        "text": "No context provided: LeBron James, Lebron James"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_39",
+    "question": "Who conducted a 300 mile march to sacramento california?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Chavez, C\u00e9sar Estrada Ch\u00e1vez, Cesar Chavez"
+      },
+      {
+        "text": "The Delano grape strike was a labor strike organized by the Agricultural Workers Organizing Committee (AWOC), a predominantly Filipino and AFL-CIO-sponsored labor organization, against table grape growers in Delano, California to fight against the exploitation of farm workers. The strike began on September 8, 1965, and one week later, the predominantly Mexican National Farmworkers Association (NFWA) joined the cause. In August 1966, the AWOC and the NFWA merged to create the United Farm Workers (UFW) Organizing Committee.: Agricultural Workers Organizing Committee"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_40",
+    "question": "Who does the voice of darth vader in star wars?",
+    "gold_docs": [
+      {
+        "text": "Anakin has also been voiced by Mat Lucas for the 2003 micro-series \"\", and by Matt Lanter in the CGI animated film \"\", the and for Anakin's small roles in the animated series \"Rebels\" and \"Forces of Destiny\". James Earl Jones reprised the voice role for Vader's appearances in \"Rebels\". Both Lanter and Jones contributed their voices for the second-season finale of \"Rebels\", at times with identical dialogue spoken by both actors blended together in different ways.: James Earl Jones"
+      },
+      {
+        "text": "Darth Vader features in the 1981 radio drama adaptation of \"Star Wars\", voiced by the actor Brock Peters. Vader makes his first appearance on the planet Ralltiir, where he treats Princess Leia with suspicion. In later extended scenes, he is heard interrogating and torturing Leia on board his Star Destroyer and aboard the Death Star.: Brock Peters"
+      },
+      {
+        "text": "No context provided: Ben Burtt"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_41",
+    "question": "Who lived to be the oldest person in the world?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Jeanne Calment"
+      },
+      {
+        "text": "The longest human lifespan which is undisputed is that of Sarah Knauss of the United States (1880\u20131999), who lived to age 119 years, 97 days.: Sarah Knauss"
+      },
+      {
+        "text": "No context provided: Jeanne Calment, Jeanne Louise Calment"
+      },
+      {
+        "text": "German supercentenarians are citizens, residents or emigrants from Germany who have attained or surpassed 110 years of age. , the Gerontology Research Group (GRG) had validated the longevity claims of 59 German supercentenarians, including 49 residents and 10 emigrants. There are currently at least 5 Germans known to be alive over age 110, including 1 emigrant. The oldest German is emigrant Louise Schaaf, born 16 October 1906, aged living in Illinois, United States. Augusta Holtz, an emigrant to the United States, was the oldest German citizen whose age was validated; she lived 115 years and 79 days, from 1871 to 1986.: Augusta Holtz"
+      },
+      {
+        "text": "No context provided: Mathew Beard"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_42",
+    "question": "When does the 12th day of christmas begin?",
+    "gold_docs": [
+      {
+        "text": "The Oriental Orthodox (other than the Armenians), the Eastern Orthodox, and the Eastern Catholics who follow the same traditions have a twelve-day interval between the two feasts. Christmas and Epiphany are celebrated by these churches on 25 December and 6 January using the Julian calendar, which correspond to 7 January and 19 January using the Gregorian calendar. The Twelve Days, using the Gregorian calendar, end at sunset on 18 January.: 18 January"
+      },
+      {
+        "text": "The traditions of the Twelve Days of Christmas have been nearly forgotten in the United States. Contributing factors include the popularity of the stories of Charles Dickens in nineteenth-century America, with their emphasis on generous giving; introduction of secular traditions in the 19th and 20th centuries, e. g., the American Santa Claus; and increase in the popularity of secular New Year's Eve parties. Presently, the commercial practice treats the Solemnity of Christmas, 25 December, the first day of Christmas, as the last day of the \"Christmas\" marketing season, as the numerous \"after-Christmas sales\" that commence on 26 December demonstrate. The commercial calendar has encouraged an erroneous assumption that the Twelve Days \"end\" on Christmas Day and must therefore begin on 14 December.: Christmas Day, 25 December"
+      },
+      {
+        "text": "The Twelve Days of Christmas, also known as Twelvetide, is a festive Christian season celebrating the Nativity of Jesus. In most Western ecclesiastical traditions, \"Christmas Day\" is considered the \"First Day of Christmas\" and the Twelve Days are 25 December through 5 January, inclusive. For many Christian denominations\u2014for example, the Anglican Communion and Lutheran Church\u2014the Twelve Days are identical to Christmastide, but for others, e.g., the Roman Catholic Church, Christmastide lasts longer than the Twelve Days of Christmas.: 5 January"
+      },
+      {
+        "text": "No context provided: Christmas Day, December 25"
+      },
+      {
+        "text": "No context provided: January 5"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_43",
+    "question": "When did alabama became a right to work state?",
+    "gold_docs": [
+      {
+        "text": "No context provided: 1953"
+      },
+      {
+        "text": "No context provided: 2016"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_44",
+    "question": "Who sings i'll be seeing you in the notebook?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Jimmy Durante."
+      },
+      {
+        "text": "No context provided: Billie Holiday"
+      },
+      {
+        "text": "No context provided: Jimmy Durante"
+      },
+      {
+        "text": "No context provided: Billie Holiday"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_45",
+    "question": "Who wrote the book of the new testament?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Jewish disciples of Christ, Jewish Christians"
+      },
+      {
+        "text": "The books of the New Testament were all or nearly all written by Jewish Christians\u2014that is, Jewish disciples of Christ, who lived in the Roman Empire, and under Roman occupation. Luke, who wrote the Gospel of Luke and the Book of Acts, is frequently thought of as an exception; scholars are divided as to whether Luke was a Gentile or a Hellenistic Jew. A few scholars identify the author of the Gospel of Mark as probably a Gentile, and similarly for the Gospel of Matthew, though most assert Jewish-Christian authorship.: Luke"
+      },
+      {
+        "text": "No context provided: Matthew, Mark, Luke, John"
+      },
+      {
+        "text": "The Pauline epistles are the thirteen books in the New Testament traditionally attributed to Paul of Tarsus. The anonymous Epistle to the Hebrews is, despite unlikely Pauline authorship, often functionally grouped with these thirteen to form a corpus of fourteen \"Pauline\" epistles.: Paul of Tarsus"
+      },
+      {
+        "text": "The author of the Epistle of James identifies himself in the opening verse as \"James, a servant of God and of the Lord Jesus Christ\". From the middle of the 3rd century, patristic authors cited the \"Epistle\" as written by James the Just. Ancient and modern scholars have always been divided on the issue of authorship. Many consider the epistle to be written in the late 1st or early 2nd centuries.: James, a servant of God"
+      },
+      {
+        "text": "The author of the First Epistle of Peter identifies himself in the opening verse as \"Peter, an apostle of Jesus Christ\", and the view that the epistle was written by St. Peter is attested to by a number of Church Fathers: Irenaeus (140\u2013203), Tertullian (150\u2013222), Clement of Alexandria (155\u2013215) and Origen of Alexandria (185\u2013253). Unlike The Second Epistle of Peter, the authorship of which was debated in antiquity, there was little debate about Peter's authorship of this first epistle until the 18th century. Although 2 Peter internally purports to be a work of the apostle, many biblical scholars have concluded that Peter is not the author. For an early date and (usually) for a defense of the Apostle Peter's authorship see Kruger, Zahn, Spitta, Bigg, and Green.: Peter, an apostle of Jesus Christ"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_46",
+    "question": "The repetition of phrases or sentences with similar structures or meanings is called?",
+    "gold_docs": [
+      {
+        "text": "In rhetoric, Parallel Syntax (also known as parallel construction and parallelism) is a rhetorical device that consists of repetition among adjacent sentences or clauses. The repeated sentences or clauses provides emphasis to a center theme or idea the author is trying to convey.: parallel construction, parallelism, Parallel syntax"
+      },
+      {
+        "text": "Schesis onomaton (\"state of nouns\", from Ancient Greek [skh\u00e9sis, \"state, condition, attitude\"] and [onom\u00e1t\u014dn, \"of nouns\"]), often misspelled \"scesis onomaton\", was originally a rhetorical technique consisting of a sentence constructed only of nouns and adjectives. It later came to mean such a series of nouns and adjectives or any series of words that were synonymous expressions. In the second sense it is a rhetorical technique used to emphasize an idea by repeating it rapidly using slightly different words that have the same or a very similar meaning.: Schesis onomaton"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_47",
+    "question": "When was the last time the cubs won the world series before 2016?",
+    "gold_docs": [
+      {
+        "text": "Chicago halted St. Louis' run to the playoffs by taking four of five games from the Cardinals at Wrigley Field in early September, after which they won their first division title in 14 years. They then went on to defeat the Atlanta Braves in a dramatic five-game Division Series, the franchise's first postseason series win since beating the Detroit Tigers in the 1908 World Series.: 1908 World Series"
+      },
+      {
+        "text": "No context provided: October 14, 1908, October 14 1908"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_48",
+    "question": "Who plays the superintendent in doctor blake mysteries?",
+    "gold_docs": [
+      {
+        "text": "No context provided: Joel Tobeck"
+      },
+      {
+        "text": "No context provided: Craig Hall"
+      },
+      {
+        "text": "No context provided: Rodger Corser"
+      }
+    ]
+  },
+  {
+    "sample_id": "asqa_dev_49",
+    "question": "Who said it is a tale told by an idiot full of sound and fury?",
+    "gold_docs": [
+      {
+        "text": "Macbeth (; full title The Tragedy of Macbeth) is a tragedy by William Shakespeare; it is thought to have been first performed in 1606. It dramatises the damaging physical and psychological effects of political ambition on those who seek power for its own sake. Of all the plays that Shakespeare wrote during the reign of James I, who was patron of Shakespeare's acting company, \"Macbeth\" most clearly reflects the playwright's relationship with his sovereign. It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.: Macbeth"
+      },
+      {
+        "text": "Macbeth (; full title The Tragedy of Macbeth) is a tragedy by William Shakespeare; it is thought to have been first performed in 1606. It dramatises the damaging physical and psychological effects of political ambition on those who seek power for its own sake. Of all the plays that Shakespeare wrote during the reign of James I, who was patron of Shakespeare's acting company, \"Macbeth\" most clearly reflects the playwright's relationship with his sovereign. It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.: Macbeth"
+      },
+      {
+        "text": "Macbeth (; full title The Tragedy of Macbeth) is a tragedy by William Shakespeare; it is thought to have been first performed in 1606. It dramatises the damaging physical and psychological effects of political ambition on those who seek power for its own sake. Of all the plays that Shakespeare wrote during the reign of James I, who was patron of Shakespeare's acting company, \"Macbeth\" most clearly reflects the playwright's relationship with his sovereign. It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.: Macbeth"
+      },
+      {
+        "text": "Macbeth (; full title The Tragedy of Macbeth) is a tragedy by William Shakespeare; it is thought to have been first performed in 1606. It dramatises the damaging physical and psychological effects of political ambition on those who seek power for its own sake. Of all the plays that Shakespeare wrote during the reign of James I, who was patron of Shakespeare's acting company, \"Macbeth\" most clearly reflects the playwright's relationship with his sovereign. It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.: Macbeth"
+      }
+    ]
+  }
+]
